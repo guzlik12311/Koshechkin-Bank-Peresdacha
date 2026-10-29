@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs       text diff=csharp
+*.sln      text merge=union
+*.csproj   text merge=union
+*.vbproj   text merge=union
+*.fsproj   text merge=union
+*.props    text merge=union
+*.targets  text merge=union
+
+# Standard to minting
+*.pdf      binary
+*.png      binary
+*.jpg      binary
